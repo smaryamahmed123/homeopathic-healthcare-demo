@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #F6FAFC; }
+a { color: inherit; text-decoration: none; }
+* { box-sizing: border-box; }
+.hero-bg {
+  background:
+    radial-gradient(circle at 85% 20%, rgba(42,157,143,.20), transparent 28%),
+    radial-gradient(circle at 15% 80%, rgba(23,107,135,.16), transparent 32%),
+    linear-gradient(135deg, #EAF7F8 0%, #F8FCFD 55%, #E9F3F8 100%);
+}
+.soft-grid {
+  background-image: linear-gradient(rgba(23,107,135,.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23,107,135,.045) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
